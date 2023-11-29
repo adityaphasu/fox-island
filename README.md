@@ -1,9 +1,6 @@
-<div align="center">
-<h1> 🦊 Fox Island </h1>
+# 🦊 Fox Island
 
 Welcome to Fox Island, a whimsical and fantastical digital world where curious foxes roam and playful adventures unfold.
-
-</div>
 
 <br />
 
