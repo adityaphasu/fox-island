@@ -19,7 +19,7 @@ This is a React application which uses three.js to render a 3D sland with foxes.
 - **Home** - An interactive 3D island with foxes, planes, birds, popups and a song which plays in the background.
 - **About** - A page with information about the island and the foxes.
 - **Facts** - A page with facts about foxes.
-- **Contact** - A page with a contact form and a fox model which moves when the user starts typing in the form and starts run when they successfully submit the form.
+- **Contact** - A page with a contact form powered by emailJS and a fox model which moves when the user starts typing in the form and starts run when they successfully submit the form.
 
 ## 🛠️ Installation Steps
 
