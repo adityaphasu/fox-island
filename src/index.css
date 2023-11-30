@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lobster+Two:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap");
+@import "@fontsource-variable/quicksand";
+@import "@fontsource/amatic-sc/400.css";
+@import "@fontsource/amatic-sc/700.css";
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +12,7 @@
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand Variable", sans-serif;
 }
 
 body:has(.card[data-color="blue"]:hover) {

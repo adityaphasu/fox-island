@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@fontsource-variable/quicksand": "^5.0.15",
+    "@fontsource/amatic-sc": "^5.0.17",
     "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.88.17",
     "@react-three/fiber": "^8.15.11",

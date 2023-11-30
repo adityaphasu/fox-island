@@ -26,7 +26,7 @@ export default {
         },
       },
       fontFamily: {
-        quicksand: ["Quicksand", "sans-serif"],
+        quicksand: ["Quicksand Variable", "sans-serif"],
         amatic: ["Amatic SC", "sans-serif"],
       },
       boxShadow: {
