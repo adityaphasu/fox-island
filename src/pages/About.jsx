@@ -5,6 +5,7 @@ import { abilities, adventures } from "../constants";
 import CTA from "../components/CTA";
 import AnimatedPage from "../components/AnimatedPage";
 import { pageAnimation } from "../utils/animatedVariants";
+import Tooltip from "../components/Tooltip";
 
 const About = () => {
   return (
@@ -24,12 +25,12 @@ const About = () => {
         <h2 className="subhead-text">Fox Talents</h2>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-12">
           {abilities.map((ability) => (
-            <div className="block-container h-20 w-20" key={ability.name}>
+            <Tooltip text={ability.name} key={ability.name}>
               <div className="btn-back roundend-xl"></div>
               <div className="btn-front flex items-center justify-center rounded-xl">
                 <img src={ability.imageUrl} alt={ability.name} className=" object-contain" />
               </div>
-            </div>
+            </Tooltip>
           ))}
         </div>
       </div>
