@@ -27,7 +27,7 @@ export const popOut = {
       type: "spring",
       stiffness: 90,
       damping: 12,
-      duration: 0.25,
+      duration: 0.15,
       delay: 0.2,
     },
   },

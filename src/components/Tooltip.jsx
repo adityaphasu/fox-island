@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
+import AnimatedComponent from "./AnimatedComponent";
+import { popOut } from "../utils/animatedVariants";
 
 const Tooltip = ({ text, children }) => {
   const [visible, setVisible] = useState(false);
@@ -11,12 +13,16 @@ const Tooltip = ({ text, children }) => {
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}>
       {children}
-
-      {visible && (
-        <div className="absolute -left-7 -top-[3.65rem] z-20 w-32 rounded-lg bg-brown-550 py-1.5 text-center">
-          <span className=" text-sm font-semibold text-offwhite">{text}</span>
-        </div>
-      )}
+      <AnimatePresence>
+        {visible && (
+          <AnimatedComponent
+            variants={popOut}
+            exit="exit"
+            className="absolute -left-7 -top-[3.65rem] z-20 w-32 rounded-lg bg-brown-550 py-1.5 text-center">
+            <span className=" text-sm font-semibold text-offwhite">{text}</span>
+          </AnimatedComponent>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
