@@ -19,7 +19,7 @@ export const fadeInX = (value) => ({
     opacity: 0,
     x: value,
   },
-  animate: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+  animate: { opacity: 1, x: 0, transition: { duration: 0.8, delay: 0.5 } },
 });
 
 export const popOut = {
