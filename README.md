@@ -6,6 +6,10 @@ Welcome to Fox Island, a whimsical and fantastical digital world where curious f
 
 This is a React application which uses three.js to render a 3D sland with foxes. The user can interact with the island by dragging it causing it to rotate and clicking on the popups as they appear to visit the respective pages.
 
+## 📸 Demo
+
+https://github.com/adityaphasu/fox-island/assets/101468793/14b15445-c2f5-4f5e-92a3-580e03bb67c3
+
 ## 🏗️ Built With
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
