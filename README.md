@@ -47,5 +47,3 @@ VITE_EMAILJS_PUBLIC_KEY=
 ## 🙏 Acknowledgements
 
 This project is inspired by [3D Portfolio Website Tutorial](https://www.youtube.com/watch?v=FkowOdMjvYo&t=8014s) by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery).
-
-- I have used the same 3D island and fox model but have added my own customizations and features.
