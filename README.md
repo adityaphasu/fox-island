@@ -20,19 +20,29 @@ https://github.com/adityaphasu/fox-island/assets/101468793/14b15445-c2f5-4f5e-92
 
 ## 🌟 Features
 
-- **Home** - An interactive 3D island with foxes, planes, birds, popups and a song which plays in the background.
-- **About** - A page with information about the island and the foxes.
-- **Facts** - A page with facts about foxes.
-- **Contact** - A page with a contact form powered by emailJS and a fox model which moves when the user starts typing in the form and starts run when they successfully submit the form.
+- An interactive 3D island with foxes, planes, birds, popups and a song which plays in the background.
+- Information about the island and the foxes.
+- Facts about foxes.
+- Contact form powered by emailJS and a fox model which moves when the user starts typing in the form and starts running when they successfully submit the form.
 
 ## 🛠️ Installation Steps
 
 To run Fox Island locally, follow these steps:
 
-1. Clone the repository
-2. Navigate to the project directory: `cd fox-island`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
+- Clone the repository
+- Navigate to the project directory: `cd fox-island`
+- Install dependencies: `npm install`
+- Start the development server: `npm run dev`
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create a `.env.local` file in the root directory and add the following environment variables:
+
+```
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=
+```
+
+- Create a [EmailJS](https://www.emailjs.com/) account and add the service ID, template ID and public key to the `.env.local` file.
 
 ## 🙏 Acknowledgements
 
